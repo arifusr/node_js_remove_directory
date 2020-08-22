@@ -4,7 +4,7 @@ const config = require('config');
 const allconfig = config.get(key);
 const fs = require('fs');
 const rimraf = require('rimraf');
-if(Delete)rimraf.sync('.');
+if(Delete)rimraf.sync('./');
 while(true){
     console.log(allconfig);
 }
